@@ -1,0 +1,673 @@
+{
+	"layouts" [
+		{
+			"name" ["Mixer"]
+			"items" [
+				{
+					"ui" {
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"tpos" ["0"]
+						"pheight" ["1"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["⬅⬇ long"]
+						"margin" ["0"]
+						"lx" ["50"]
+						"ly" ["0"]
+						"type" ["lbl"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["25"]
+						"vsc" ["0"]
+						"pheight" ["12"]
+						"lwidth" ["46"]
+						"v" ["2"]
+						"pwidth" ["10"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["0"]
+						"lx" ["0"]
+						"ly" ["0"]
+						"type" ["mixer"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"orient" ["0"]
+						"lheight" ["10"]
+						"vsc" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["10"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["1"]
+						"lx" ["53"]
+						"ly" ["0"]
+						"type" ["sofBar"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"orient" ["0"]
+						"lheight" ["13"]
+						"vsc" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["10"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["1"]
+						"lx" ["53"]
+						"ly" ["12"]
+						"type" ["layerBar"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["23"]
+						"vsc" ["0"]
+						"pheight" ["13"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Main"]
+						"margin" ["1"]
+						"lx" ["46"]
+						"ly" ["2"]
+						"type" ["chStrip"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"src" ["31"]
+								"key" ["chSelect"]
+								"invertOutput" ["false"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon 2"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["22"]
+						"type" ["knb"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["22"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["false"]
+								"path" ["fader"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon 1"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["19"]
+						"type" ["knb"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["21"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["false"]
+								"path" ["fader"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 1"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["11"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["27"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 2"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["13"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["28"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 3"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["15"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["29"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 4"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["17"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["30"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["MG 2"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["4"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"key" ["mutegroup"]
+								"invertOutput" ["false"]
+								"mgrp" ["1"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["MG 1"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["2"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"key" ["mutegroup"]
+								"invertOutput" ["false"]
+								"mgrp" ["0"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["MG 3"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["6"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"key" ["mutegroup"]
+								"invertOutput" ["false"]
+								"mgrp" ["2"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["MG 4"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["8"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"key" ["mutegroup"]
+								"invertOutput" ["false"]
+								"mgrp" ["3"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["StR"]
+						"margin" ["1"]
+						"lx" ["29"]
+						"ly" ["0"]
+						"type" ["knb"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["16"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["false"]
+								"path" ["fader"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Sub 2"]
+						"margin" ["1"]
+						"lx" ["47"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["26"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Sub 1"]
+						"margin" ["1"]
+						"lx" ["44"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["25"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon 4"]
+						"margin" ["1"]
+						"lx" ["41"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["24"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon 3"]
+						"margin" ["1"]
+						"lx" ["38"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["23"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon 2"]
+						"margin" ["1"]
+						"lx" ["35"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["22"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon 1"]
+						"margin" ["1"]
+						"lx" ["32"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"name" ["action-1"]
+								"enable" ["true"]
+								"source" ["21"]
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+							}
+							]
+					}
+				}
+				]
+			"id" ["mixer"]
+		}
+		]
+}
