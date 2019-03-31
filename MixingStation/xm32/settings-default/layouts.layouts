@@ -1,0 +1,1154 @@
+{
+	"layouts" [
+		{
+			"name" ["default"]
+			"items" [
+				{
+					"ui" {
+						"lheight" ["26"]
+						"vsc" ["0"]
+						"pheight" ["12"]
+						"lwidth" ["46"]
+						"v" ["2"]
+						"pwidth" ["10"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["0"]
+						"lx" ["4"]
+						"ly" ["2"]
+						"type" ["mixer"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"orient" ["0"]
+						"lheight" ["10"]
+						"vsc" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["10"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["1"]
+						"lx" ["59"]
+						"ly" ["0"]
+						"type" ["sofBar"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"orient" ["0"]
+						"lheight" ["17"]
+						"vsc" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["10"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["1"]
+						"lx" ["59"]
+						"ly" ["11"]
+						"type" ["layerBar"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["26"]
+						"vsc" ["0"]
+						"pheight" ["13"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" [""]
+						"margin" ["1"]
+						"lx" ["51"]
+						"ly" ["2"]
+						"type" ["chStrip"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"src" ["70"]
+								"sof" ["false"]
+								"invertOutput" ["false"]
+								"key" ["chSelect"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]
+[value]"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["5"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["mutegroup"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"mgrp" ["0"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]
+[value]"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["7"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["mutegroup"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"mgrp" ["1"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]
+[value]"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["9"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["mutegroup"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"mgrp" ["2"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]
+[value]"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["11"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["mutegroup"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"mgrp" ["3"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]
+[value]"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["13"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["mutegroup"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"mgrp" ["4"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]
+[value]"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["15"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["mutegroup"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"mgrp" ["5"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["31"]
+						"v" ["2"]
+						"pwidth" ["6"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]"]
+						"margin" ["1"]
+						"lx" ["4"]
+						"ly" ["0"]
+						"type" ["meterbar"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon1"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["6"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["0"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx1"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["20"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["12"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon2"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["8"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["1"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon3"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["10"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["2"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon4"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["12"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["3"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon5"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["14"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["4"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon6"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["16"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["5"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["StMon"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["18"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["6"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx2"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["22"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["13"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx3"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["24"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["14"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx4"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["26"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["15"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx2"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["22"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["61"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx3"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["24"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["62"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx1"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["20"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["60"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx4"]
+						"margin" ["1"]
+						"lx" ["55"]
+						"ly" ["26"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["63"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon1"]
+						"margin" ["1"]
+						"lx" ["38"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["48"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon2"]
+						"margin" ["1"]
+						"lx" ["41"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["49"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon3"]
+						"margin" ["1"]
+						"lx" ["44"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["50"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon4"]
+						"margin" ["1"]
+						"lx" ["47"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["51"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon5"]
+						"margin" ["1"]
+						"lx" ["50"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["52"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon6"]
+						"margin" ["1"]
+						"lx" ["53"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["53"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["1"]
+						"pheight" ["2"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["StMon"]
+						"margin" ["1"]
+						"lx" ["56"]
+						"ly" ["0"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["true"]
+								"path" ["on"]
+								"source" ["54"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon1"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["0"]
+						"type" ["knb"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"path" ["fader"]
+								"source" ["48"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon2"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["3"]
+						"type" ["knb"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"path" ["fader"]
+								"source" ["49"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["3"]
+						"v" ["2"]
+						"pwidth" ["3"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Aux56"]
+						"margin" ["1"]
+						"lx" ["35"]
+						"ly" ["0"]
+						"type" ["knb"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"SoF" ["false"]
+								"key" ["fixedCH"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"path" ["fader"]
+								"source" ["36"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["1"]
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Scribble"]
+						"margin" ["3"]
+						"lx" ["55"]
+						"ly" ["2"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"enable" ["true"]
+								"id" ["scblstrp"]
+								"invertOutput" ["false"]
+								"key" ["openView"]
+								"param" ["0"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"style" ["2"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Clr Sol"]
+						"margin" ["3"]
+						"lx" ["55"]
+						"ly" ["17"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["clrSolo"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+							}
+							]
+					}
+				}
+				]
+			"id" ["mixer"]
+		}
+		]
+}

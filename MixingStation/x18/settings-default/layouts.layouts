@@ -27,18 +27,18 @@
 				}
 				{
 					"ui" {
-						"lheight" ["28"]
+						"lheight" ["26"]
 						"vsc" ["0"]
 						"pheight" ["12"]
-						"lwidth" ["51"]
+						"lwidth" ["46"]
 						"v" ["2"]
 						"pwidth" ["10"]
 						"px" ["0"]
 						"vs" ["0"]
 						"label" [""]
 						"margin" ["0"]
-						"lx" ["0"]
-						"ly" ["0"]
+						"lx" ["4"]
+						"ly" ["2"]
 						"type" ["mixer"]
 						"py" ["0"]
 					}
@@ -58,7 +58,7 @@
 						"px" ["0"]
 						"vs" ["0"]
 						"label" [""]
-						"margin" ["1"]
+						"margin" ["0"]
 						"lx" ["59"]
 						"ly" ["0"]
 						"type" ["sofBar"]
@@ -71,7 +71,7 @@
 				{
 					"ui" {
 						"orient" ["0"]
-						"lheight" ["13"]
+						"lheight" ["16"]
 						"vsc" ["0"]
 						"pheight" ["2"]
 						"lwidth" ["4"]
@@ -80,7 +80,7 @@
 						"px" ["0"]
 						"vs" ["0"]
 						"label" [""]
-						"margin" ["1"]
+						"margin" ["0"]
 						"lx" ["59"]
 						"ly" ["12"]
 						"type" ["layerBar"]
@@ -110,11 +110,11 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
 								"enable" ["true"]
-								"src" ["31"]
-								"key" ["chSelect"]
+								"src" ["1"]
+								"sof" ["false"]
 								"invertOutput" ["false"]
+								"key" ["dynChSelect"]
 							}
 							]
 					}
@@ -131,21 +131,20 @@
 						"vs" ["0"]
 						"label" ["Mon 2"]
 						"margin" ["1"]
-						"lx" ["55"]
-						"ly" ["24"]
+						"lx" ["0"]
+						"ly" ["4"]
 						"type" ["knb"]
 						"py" ["0"]
 					}
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["22"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"path" ["fader"]
+								"source" ["22"]
 							}
 							]
 					}
@@ -162,21 +161,20 @@
 						"vs" ["0"]
 						"label" ["Mon 1"]
 						"margin" ["1"]
-						"lx" ["55"]
-						"ly" ["20"]
+						"lx" ["0"]
+						"ly" ["0"]
 						"type" ["knb"]
 						"py" ["0"]
 					}
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["21"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"path" ["fader"]
+								"source" ["21"]
 							}
 							]
 					}
@@ -196,20 +194,19 @@
 						"label" ["Fx 1"]
 						"margin" ["1"]
 						"lx" ["55"]
-						"ly" ["12"]
+						"ly" ["20"]
 						"type" ["btn"]
 						"py" ["0"]
 					}
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["27"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["27"]
 							}
 							]
 					}
@@ -229,20 +226,19 @@
 						"label" ["Fx 2"]
 						"margin" ["1"]
 						"lx" ["55"]
-						"ly" ["14"]
+						"ly" ["22"]
 						"type" ["btn"]
 						"py" ["0"]
 					}
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["28"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["28"]
 							}
 							]
 					}
@@ -262,20 +258,19 @@
 						"label" ["Fx 3"]
 						"margin" ["1"]
 						"lx" ["55"]
-						"ly" ["16"]
+						"ly" ["24"]
 						"type" ["btn"]
 						"py" ["0"]
 					}
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["29"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["29"]
 							}
 							]
 					}
@@ -295,20 +290,19 @@
 						"label" ["Fx 4"]
 						"margin" ["1"]
 						"lx" ["55"]
-						"ly" ["18"]
+						"ly" ["26"]
 						"type" ["btn"]
 						"py" ["0"]
 					}
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["30"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["30"]
 							}
 							]
 					}
@@ -335,9 +329,8 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
 								"key" ["mutegroup"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"mgrp" ["1"]
 							}
@@ -366,9 +359,8 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
 								"key" ["mutegroup"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"mgrp" ["0"]
 							}
@@ -397,9 +389,8 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
 								"key" ["mutegroup"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"mgrp" ["2"]
 							}
@@ -428,9 +419,8 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
 								"key" ["mutegroup"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"mgrp" ["3"]
 							}
@@ -457,13 +447,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["16"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["false"]
 								"path" ["fader"]
+								"source" ["16"]
 							}
 							]
 					}
@@ -490,13 +479,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["26"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["26"]
 							}
 							]
 					}
@@ -523,13 +511,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["25"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["25"]
 							}
 							]
 					}
@@ -556,13 +543,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["24"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["24"]
 							}
 							]
 					}
@@ -589,13 +575,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["23"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["23"]
 							}
 							]
 					}
@@ -622,13 +607,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["22"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["22"]
 							}
 							]
 					}
@@ -655,13 +639,12 @@
 					"actions" {
 						"actions" [
 							{
-								"name" ["action-1"]
-								"enable" ["true"]
-								"source" ["21"]
 								"SoF" ["false"]
 								"key" ["fixedCH"]
+								"enable" ["true"]
 								"invertOutput" ["true"]
 								"path" ["on"]
+								"source" ["21"]
 							}
 							]
 					}
@@ -677,7 +660,7 @@
 						"pwidth" ["4"]
 						"px" ["0"]
 						"vs" ["0"]
-						"label" ["yel: 0…–20dB (2dB step)"]
+						"label" ["yel: 0..-20dB (2dB step)"]
 						"margin" ["0"]
 						"lx" ["55"]
 						"ly" ["10"]
@@ -699,7 +682,7 @@
 						"pwidth" ["4"]
 						"px" ["0"]
 						"vs" ["0"]
-						"label" ["grn: –25…–60dB (~6dB step)"]
+						"label" ["grn: -25..-60dB (~6dB)"]
 						"margin" ["0"]
 						"lx" ["55"]
 						"ly" ["11"]
@@ -708,6 +691,304 @@
 					}
 					"actions" {
 						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"pheight" ["3"]
+						"lwidth" ["29"]
+						"v" ["2"]
+						"pwidth" ["6"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["[label]"]
+						"margin" ["1"]
+						"lx" ["4"]
+						"ly" ["0"]
+						"type" ["meterbar"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" []
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon1"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["8"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["0"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon2"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["10"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["1"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon3"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["12"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["2"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Mon4"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["14"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["3"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 1"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["20"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["6"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 2"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["22"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["7"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 3"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["24"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["8"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["2"]
+						"vsc" ["0"]
+						"style" ["0"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Fx 4"]
+						"margin" ["1"]
+						"lx" ["0"]
+						"ly" ["26"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"sendID" ["9"]
+								"key" ["sendsOnFader"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+								"toggle" ["true"]
+							}
+							]
+					}
+				}
+				{
+					"ui" {
+						"behave" ["0"]
+						"lheight" ["3"]
+						"vsc" ["0"]
+						"style" ["2"]
+						"pheight" ["2"]
+						"lwidth" ["4"]
+						"v" ["2"]
+						"pwidth" ["4"]
+						"px" ["0"]
+						"vs" ["0"]
+						"label" ["Clr Sol"]
+						"margin" ["3"]
+						"lx" ["55"]
+						"ly" ["17"]
+						"type" ["btn"]
+						"py" ["0"]
+					}
+					"actions" {
+						"actions" [
+							{
+								"key" ["clrSolo"]
+								"enable" ["true"]
+								"invertOutput" ["false"]
+							}
+							]
 					}
 				}
 				]
